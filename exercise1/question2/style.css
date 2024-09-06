@@ -1,0 +1,31 @@
+.nav {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav link {
+    display: inline-block;
+    width: 20vw;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .text-section {
+    text-align: center; /* Centraliza as caixas de texto */
+}
+
+.text-box {
+    display: inline-block; /* Exibe as caixas de texto como blocos em linha */
+    width: 45%; /* Largura relativa ao container */
+    background-color: black; /* Cor de fundo */
+    color: wheat; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5%; /* Margem entre as caixas de texto */
+    border: 2px solid blue; /* Borda sólida */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra nas caixas de texto */
+}

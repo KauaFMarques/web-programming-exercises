@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+header{
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px;
+}
+footer{
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex; /* Utiliza o flex para layout responsivo */
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Estilização da sidebar */
+.sidebar {
+    background-color: white;
+    padding: 20px;
+    width: 25%; /* Largura da sidebar */
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* Estilização dos artigos */
+.articles {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
