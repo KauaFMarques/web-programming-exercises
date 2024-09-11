@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 300px 150px; 
+    grid-gap: 20px; 
+    margin: auto; 
+    width: max-content; 
+    height: max-content; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+}
+
+.left-bar, .main-content, .right-bar {
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+    height: 150px; 
+}
+
+.main-content {
+    background-color: #ccc;
+}
+
+
+.container * {
+    border: 1px solid black;
+    position: relative;
+}
+
+.container *:after {
+    content: attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
