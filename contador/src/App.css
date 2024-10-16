@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f5f5f5; 
+}
+
+.custom-button {
+  background-color: #e74c3c; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #c0392b; 
+}
+
+.botao-reiniciar {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-reiniciar:hover {
+  background-color: #27ae60;
+}
