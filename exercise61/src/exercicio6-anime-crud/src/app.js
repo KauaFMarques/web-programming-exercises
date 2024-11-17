@@ -1,5 +1,5 @@
 const express = require('express');
-const animeRoutes = require('exercise61\src\exercicio6-anime-crud\src\routes\animeRoute.js'); // Atualize para o caminho relativo correto
+const animeRoutes = require('./routes/animeRoute'); // Atualize para o caminho relativo correto
 
 const app = express();
 

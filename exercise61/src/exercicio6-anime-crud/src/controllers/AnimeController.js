@@ -1,4 +1,4 @@
-const AnimeService = require('exercise61\src\exercicio6-anime-crud\src\services\AnimeService.js');
+const AnimeService = require('../services/AnimeService');
 
 class AnimeController {
     getAll(req, res) {

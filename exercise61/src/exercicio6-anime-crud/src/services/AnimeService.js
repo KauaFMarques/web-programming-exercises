@@ -1,5 +1,5 @@
-const AnimeRepository = require('exercise61\src\exercicio6-anime-crud\src\repositories\AnimeRepository.js');
-const Anime = require('exercise61\src\exercicio6-anime-crud\src\models\Anime.js');
+const AnimeRepository = require('../repositories/AnimeRepository');
+const Anime = require('../models/Anime');
 
 class AnimeService {
     getAllAnimes() {
